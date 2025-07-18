@@ -11,6 +11,7 @@
     "description description";
   grid-template-columns: minmax(0, 415px) auto;
   align-items: center;
+  grid-gap: 7px 17px;
 }
 
 .profile__title {
@@ -20,6 +21,9 @@
   line-height: 48px;
   grid-area: title;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .profile__edit-button {
@@ -27,6 +31,11 @@
   height: 24px;
   width: 24px;
   grid-area: button;
+  border: 1px solid #fff;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
 }
 
 .profile__description {
@@ -36,6 +45,10 @@
   line-height: 22px;
   grid-area: description;
   margin: 0;
+  max-width: 370px;
+  text-overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .profile__add-button {
@@ -43,10 +56,16 @@
   margin-left: auto;
   width: 150px;
   height: 50px;
+  border: 2px solid #fff;
+}
+
+.profile__add-button:hover {
+  cursor: pointer;
 }
 
 .profile__image {
   height: 120px;
   width: 120px;
   margin-right: 30px;
+  border-radius: 50%;
 }

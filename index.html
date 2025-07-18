@@ -12,7 +12,11 @@
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
-        <img src="./images/Vector.svg" alt="Around The U.S. logo" />
+        <img
+          src="./images/Vector.svg"
+          alt="Around The U.S. logo"
+          class="header__logo"
+        />
       </header>
       <main class="content">
         <section class="profile page__section">
@@ -23,12 +27,12 @@
           />
           <div class="profile__info">
             <h1 class="profile__title">Jacques Cousteau</h1>
-            <button class="profile__edit-button"></button>
+            <button class="profile__edit-button" type="button"></button>
             <p class="profile__description">Explorer</p>
           </div>
-          <button class="profile__add-button"></button>
+          <button class="profile__add-button" type="button"></button>
         </section>
-        <section class="cards">
+        <section class="cards, page__section">
           <ul class="card__list">
             <li class="card">
               <img
@@ -37,8 +41,8 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2>Yosemite Valley</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Yosemite Valley</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
             <li class="card">
@@ -48,8 +52,8 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2>Lake Louise</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Lake Louise</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
             <li class="card">
@@ -59,8 +63,8 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2>Bald Mountains</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Bald Mountains</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
             <li class="card">
@@ -70,8 +74,8 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2>Latemar</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Latemar</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
             <li class="card">
@@ -81,22 +85,22 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2>Vanoise National Park</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Vanoise National Park</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
             <li class="card">
               <img src="./images/lago.jpg" alt="Lago" class="card__image" />
               <div class="card__description">
-                <h2>Lago De Braies</h2>
-                <button class="card__like-button"></button>
+                <h2 class="card__title">Lago De Braies</h2>
+                <button class="card__like-button" type="button"></button>
               </div>
             </li>
           </ul>
         </section>
       </main>
-      <footer class="copyright">
-        <p>&copy;2022 Around The U.S.</p>
+      <footer class="footer, page__section">
+        <p class="copyright">&copy;2022 Around The U.S.</p>
       </footer>
     </div>
   </body>

@@ -1,5 +1,5 @@
 .cards {
-  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 24px;
   line-height: 100%;
@@ -21,20 +21,22 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__title {
+  max-width: 100%;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 
 .card__description {
   background-color: white;
   color: black;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +47,8 @@
   background: transparent url(../images/Vector-2.svg) center no-repeat;
   width: 21px;
   height: 18px;
+}
+
+.card__like-button:hover {
+  cursor: pointer;
 }
