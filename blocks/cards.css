@@ -1,54 +1,8 @@
-.cards {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 100%;
-  margin-top: 51px;
-}
-
-.card__list {
+.cards__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-gap: 20px 17px;
   justify-content: center;
   padding: 0;
   margin: 0;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.card__title {
-  max-width: 100%;
-}
-
-.card__image {
-  width: 282px;
-  height: 282px;
-}
-
-.card__description {
-  background-color: white;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 20px 30px 25px;
-}
-
-.card__like-button {
-  background: transparent url(../images/Vector-2.svg) center no-repeat;
-  width: 21px;
-  height: 18px;
-}
-
-.card__like-button:hover {
-  cursor: pointer;
 }
