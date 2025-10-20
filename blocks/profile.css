@@ -72,7 +72,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 879px) {
   .profile {
     flex-direction: column;
   }
