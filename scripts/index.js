@@ -1,7 +1,7 @@
 const initialCards = [
   {
     name: "Yosimite Valley",
-    Link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
   },
   {
     name: "Lake Louise",
@@ -25,4 +25,4 @@ const initialCards = [
   },
 ];
 
-console.log(InitialCards);
+console.log(initialCards);
